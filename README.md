@@ -1,6 +1,6 @@
-coyno-log
+coyno-dispatcher
 =======
 
-Logging library.
+Job dispatching library.
 
 Copyright © 2015 Coyno.
