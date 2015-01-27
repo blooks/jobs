@@ -1,11 +1,11 @@
 {
   "name": "coyno-dispatcher",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Job dispatching library",
   "main": "index.js",
   "repository": {
-    "type" : "git",
-    "url" : "http://github.com/coyno/coyno-dispatcher.git"
+    "type": "git",
+    "url": "http://github.com/coyno/coyno-dispatcher.git"
   },
   "author": "Coyno <coyno@coyno.com>",
   "contributors": [
