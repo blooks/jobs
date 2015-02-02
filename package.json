@@ -21,8 +21,8 @@
     "build": "gulp"
   },
   "dependencies": {
-    "coyno-config": "^0.0.8",
-    "coyno-kue": "^0.0.7",
+    "coyno-config": "^0.0.9",
+    "coyno-kue": "^0.0.8",
     "lodash": "^2.4.1"
   },
   "devDependencies": {
