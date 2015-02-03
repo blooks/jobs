@@ -1,6 +1,6 @@
 {
   "name": "coyno-dispatcher",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Job dispatching library",
   "main": "index.js",
   "repository": {
