@@ -1,7 +1,7 @@
 {
-  "name": "coyno-dispatcher",
-  "version": "0.1.0",
-  "description": "Job dispatching library",
+  "name": "coyno-jobs",
+  "version": "0.0.1",
+  "description": "Job management library",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -9,10 +9,6 @@
   },
   "author": "Coyno <coyno@coyno.com>",
   "contributors": [
-    {
-      "name": "Leopoldo Godines",
-      "email": "lg@leopoldogodines.com"
-    },
     {
       "name": "Levin Keller",
       "email": "levin@coyno.com"
@@ -25,6 +21,7 @@
     "build": "gulp"
   },
   "dependencies": {
+    "coyno-log": "0.0.15",
     "kue": "^0.9.4",
     "lodash": "^2.4.1"
   },
