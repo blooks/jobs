@@ -1,18 +1,14 @@
 {
-  "name": "coyno-dispatcher",
-  "version": "0.0.13",
-  "description": "Job dispatching library",
+  "name": "coyno-jobs",
+  "version": "0.0.1",
+  "description": "Job management library",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/coyno/coyno-dispatcher.git"
+    "url": "http://github.com/coyno/coyno-jobs.git"
   },
   "author": "Coyno <coyno@coyno.com>",
   "contributors": [
-    {
-      "name": "Leopoldo Godines",
-      "email": "lg@leopoldogodines.com"
-    },
     {
       "name": "Levin Keller",
       "email": "levin@coyno.com"
@@ -20,13 +16,13 @@
   ],
   "scripts": {
     "lint": "gulp lint",
-    "test": "gulp test",
+    "test": "mocha test",
     "coverage": "gulp coverage",
     "build": "gulp"
   },
   "dependencies": {
-    "coyno-config": "0.0.x",
-    "coyno-kue": "0.0.x",
+    "coyno-log": "0.0.15",
+    "kue": "^0.9.4",
     "lodash": "^2.4.1"
   },
   "devDependencies": {
