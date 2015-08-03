@@ -15,10 +15,7 @@
     }
   ],
   "scripts": {
-    "lint": "gulp lint",
-    "test": "mocha test",
-    "coverage": "gulp coverage",
-    "build": "gulp"
+    "test": "mocha test"
   },
   "dependencies": {
     "coyno-log": "0.0.15",
