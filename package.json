@@ -1,39 +1,41 @@
 {
-  "name": "coyno-jobs",
+  "name": "@blooks/jobs",
   "version": "0.0.2",
-  "description": "Job management library",
+  "description": "Job management library for blooks",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/coyno/coyno-jobs.git"
+    "url": "http://github.com/blooks/blooks-jobs.git"
   },
   "author": "Coyno <coyno@coyno.com>",
   "contributors": [
     {
       "name": "Levin Keller",
       "email": "levin@coyno.com"
+    },
+    {
+      "name": "Leopoldo Godines",
+      "email": "lg@leopoldogodines.com"
     }
   ],
   "scripts": {
     "test": "mocha test"
   },
+  "eslintConfig": {
+    "env": {
+      "mocha": true,
+      "node": true
+    },
+    "extends": "standard"
+  },
   "dependencies": {
-    "coyno-log": "0.0.15",
+    "@blooks/log": "^0.2.2",
     "kue": "^0.9.4",
     "lodash": "^2.4.1"
   },
   "devDependencies": {
-    "chai": "^1.10.0",
-    "gulp": "^3.8.10",
-    "gulp-jshint": "^1.9.0",
-    "gulp-mocha": "^2.0.0",
-    "gulp-shell": "^0.2.11",
-    "gulp-util": "^3.0.2",
-    "istanbul": "^0.3.5",
-    "jsdoc": "^3.3.0-alpha13",
-    "jsdoc-to-markdown": "^0.5.9",
-    "mocha": "^2.1.0",
-    "more-fs": "^0.5.0",
-    "through2": "^0.6.3"
-  }
+    "mocha": "^3.0.2",
+    "standard": "^7.1.2"
+  },
+  "license": "Apache-2.0"
 }
