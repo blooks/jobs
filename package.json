@@ -1,6 +1,6 @@
 {
   "name": "@blooks/jobs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Job management library for blooks",
   "main": "index.js",
   "repository": {
